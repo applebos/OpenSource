@@ -28,4 +28,4 @@ CPU 캐시:
 - L3 캐시: 96 MiB (전체 코어 공유)
 
 NUMA: 단일 NUMA 노드, CPU 0-7 사용
-![그래프](https://github.com/user-attachments/assets/578baa1b-9548-4453-8382-e456670c89c5)
+![그래프](https://github.com/user-attachments/assets/ab08de30-59bd-4033-8de6-23525aab5ccf)
