@@ -10,7 +10,7 @@ CPU 캐시:
 - L1 캐시: 128 KiB (각 코어당 1개)
 - L2 캐시: 1 MiB (각 코어당 1개)
 - L3 캐시: 48 MiB (전체 코어 공유)
-![그래프4](https://github.com/user-attachments/assets/2742d9af-40b7-49df-90e9-a2350d1482e3)
+![그래프4](https://github.com/user-attachments/assets/3e7a6560-60e7-4b2f-90d0-a32c06271d09)
 
 
 
