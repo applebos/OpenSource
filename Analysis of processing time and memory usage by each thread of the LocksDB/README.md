@@ -2,16 +2,19 @@
 
 1) Analysis of processing time and memory usage by each thread of the LocksDB
 
-실험 환경<br/>
-CPU: Intel(R) Core(TM) i7-9750H CPU @ 2.60GHz<br/>
-코어 수: 4<br/>
-쓰레드 수: 4 (각 코어당 1개의 쓰레드)<br/>
-운영체제: 리눅스 (64-bit)<br/>
-가상화: KVM 하이퍼바이저를 통한 완전 가상화<br/>
-CPU 캐시:
-- L1 캐시: 128 KiB (각 코어당 1개)
-- L2 캐시: 1 MiB (각 코어당 1개)
-- L3 캐시: 48 MiB (전체 코어 공유)
+CPU 사양:
+- 모델: AMD Ryzen 7 7800X3D 8-Core Processor
+- cCPU 아키텍처: x86_64 (64-bit)
+- 코어 수: 8 (1스레드당 1개의 스레드)
+- CPU 속도 및 성능:
+  - BogoMIPS: 8384.26
+  - 다양한 고급 명령어 집합 지원 (AVX, AVX2, AES, FMA 등)
+캐시 정보:
+L1d Cache: 256 KiB (각각 8개 인스턴스)
+L1i Cache: 256 KiB (각각 8개 인스턴스)
+L2 Cache: 8 MiB (각각 8개 인스턴스)
+L3 Cache: 768 MiB (8개 인스턴스)
+가상화 환경: KVM (Full virtualization)
 
 
 한 번 실행
